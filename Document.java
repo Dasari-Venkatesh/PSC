@@ -26,7 +26,7 @@ public class Document {
         try{
             BufferedReader r = new BufferedReader(new InputStreamReader((url.openStream())));
             String inputLine;
-            System.out.println("printing the first line of the text captured"+r.lines);
+            // System.out.println("printing the first line of the text captured"+);
             while((inputLine = r.readLine()) != null){
                 
                 String[] words = inputLine.split("\\s+");
